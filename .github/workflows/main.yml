@@ -25,6 +25,6 @@ jobs:
         run: ng build --configuration production --base-href /prodando/
 
       - name: Deploy to GitHub Pages
-        uses: angular-schule/angular-cli-ghpages@latest
+        uses: angular-schule/angular-cli-ghpages@0.6.2
         with:
           dir: dist/deploy
