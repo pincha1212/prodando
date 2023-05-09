@@ -1,0 +1,9 @@
+.background {
+    background-size: contain;
+    background-position: center;
+    height: 97.5vh;
+    background-image: url(../../../assets/images/23626-Age-Of-Empires-IV-4k-Ultra-HD-Wallpaper.png);
+    z-index: -1;
+    width: 100%;
+    overflow: hidden
+}

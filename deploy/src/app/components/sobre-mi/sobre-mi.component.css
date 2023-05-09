@@ -1,0 +1,63 @@
+button {
+    user-select: none;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+button:hover {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:focus {
+    text-decoration: none;
+    outline: none
+}
+
+.boton1{
+    position: absolute;
+    left: 46%;
+    top: 21%;
+}
+
+.boton1:hover {
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0)
+}
+
+.info-rectangle {
+    z-index: 1;
+    background-image: url(../../../assets/images/vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    position: absolute;
+    width: 85vw;
+    height: 85vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .info-rectangle button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .info-rectangle button:hover {
+    background-color: red;
+  }
