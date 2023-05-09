@@ -7,8 +7,14 @@ import { Component } from '@angular/core';
 })
 export class SobreMiComponent {
   showInfo = false;
-
+  showMusic = false;
+  
   toggleInfo() {
     this.showInfo = !this.showInfo;
+  }
+  
+
+  toggleMusic() {
+    this.showMusic =!this.showMusic;
   }
 }

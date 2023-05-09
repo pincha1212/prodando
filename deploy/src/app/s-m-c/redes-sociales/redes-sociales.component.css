@@ -1,0 +1,18 @@
+.social-icon {
+    user-select: none;
+    margin: 5px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.social-icon img {
+    width: 50px;
+    height: 50px;
+    margin: 5px
+}
+
+.social-icon img:hover {
+    width: 45px;
+    height: 45px
+}

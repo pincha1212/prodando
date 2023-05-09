@@ -1,0 +1,69 @@
+.music-button{
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    right: 0;
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.music-button img{
+    width: 40px;
+    height: 40px;
+    padding-right: 11%;
+}
+
+.music-rectangle{
+    z-index: 1;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 20px;
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    top: 75%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+#close-button {
+    color: #bcbbbb6a;
+    z-index: 3;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#close-button:hover {
+    color: #cecece6a;
+    background-color: red
+}
+button {
+    user-select: none;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 35%;
+    right: 25%;
+}
+
+button:hover {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:focus {
+    text-decoration: none;
+    outline: none
+}
