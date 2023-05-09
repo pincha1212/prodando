@@ -7,6 +7,8 @@ import { WallpaperComponent } from './components/wallpaper/wallpaper.component';
 import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { TituloComponent } from './s-m-c/titulo/titulo.component';
+import { DescripcionComponent } from './s-m-c/descripcion/descripcion.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     WallpaperComponent,
     SobreMiComponent,
     HabilidadesComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    TituloComponent,
+    DescripcionComponent
   ],
   imports: [
     BrowserModule,
