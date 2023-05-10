@@ -3,7 +3,8 @@
     margin: 5px;
     position: absolute;
     top: 0;
-    left: 0
+    left: 0;
+    width:10px
 }
 
 .social-icon img {
