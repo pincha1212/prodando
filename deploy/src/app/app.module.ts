@@ -11,6 +11,7 @@ import { TituloComponent } from './s-m-c/titulo/titulo.component';
 import { DescripcionComponent } from './s-m-c/descripcion/descripcion.component';
 import { RedesSocialesComponent } from './s-m-c/redes-sociales/redes-sociales.component';
 import { MusicBarComponent } from './s-m-c/music-bar/music-bar.component';
+import { MasDeMiComponent } from './s-m-c/mas-de-mi/mas-de-mi.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MusicBarComponent } from './s-m-c/music-bar/music-bar.component';
     TituloComponent,
     DescripcionComponent,
     RedesSocialesComponent,
-    MusicBarComponent
+    MusicBarComponent,
+    MasDeMiComponent
   ],
   imports: [
     BrowserModule,
