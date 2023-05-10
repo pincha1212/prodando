@@ -4,3 +4,13 @@
     position: absolute;
     color: #FFF
 }
+
+.subtitulo1 {
+    user-select: none;
+    margin-top: 10px;
+    color: #fff;
+    margin-bottom: 20px
+}
+.info{
+    user-select: none;
+}

@@ -34,7 +34,7 @@
     z-index: 3;
     background-color: transparent;
     cursor: pointer;
-    right: 100%;
+    right: 8.2%;
     bottom: 100%;
 }
 
@@ -69,4 +69,7 @@ button:hover {
 button:focus {
     text-decoration: none;
     outline: none
+}
+.info{
+    user-select: none;
 }
