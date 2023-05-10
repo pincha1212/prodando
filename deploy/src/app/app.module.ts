@@ -13,6 +13,9 @@ import { MusicBarComponent } from './s-m-c/music-bar/music-bar.component';
 import { MasDeMiComponent } from './s-m-c/mas-de-mi/mas-de-mi.component';
 import { NombreComponent } from './components/nombre/nombre.component';
 import { Titulo1Component } from './c-p/titulo1/titulo1.component';
+import { Titulo2Component } from './c-h/titulo2/titulo2.component';
+import { SkillsComponent } from './c-h/skills/skills.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -27,11 +30,22 @@ import { Titulo1Component } from './c-p/titulo1/titulo1.component';
     MusicBarComponent,
     MasDeMiComponent,
     NombreComponent,
-    Titulo1Component
+    Titulo1Component,
+    Titulo2Component,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({
+      // set defaults here
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      outerStrokeColor: "#78C000",
+      innerStrokeColor: "#C7E596",
+      animationDuration: 300,
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
