@@ -16,6 +16,8 @@ import { Titulo1Component } from './c-p/titulo1/titulo1.component';
 import { Titulo2Component } from './c-h/titulo2/titulo2.component';
 import { SkillsComponent } from './c-h/skills/skills.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { CurriculumComponent } from './s-m-c/curriculum/curriculum.component';
+import { TarjetasComponent } from './c-p/tarjetas/tarjetas.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     Titulo1Component,
     Titulo2Component,
     SkillsComponent,
+    CurriculumComponent,
+    TarjetasComponent,
   ],
   imports: [
     BrowserModule,
